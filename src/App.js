@@ -9,18 +9,20 @@ function App() {
   return (
     <div className='App'>
       <Nav />
-      <div className='topRow'>
-        <Ratings rating='1,281' />
-        <AvgRatings AvgRating='4.6' />
-        <Sentiment_Analysis
-          sentiment1='960'
-          sentiment2='112'
-          sentiment3='321'
-        />
-      </div>
-      <div className='bottomRow'>
-        {' '}
-        <Website_Visitors visitors='821' />
+      <div className='containerOfRows'>
+        <div className='topRow'>
+          <Ratings rating='1,281' />
+          <AvgRatings AvgRating='4.6' />
+          <Sentiment_Analysis
+            sentiment1='960'
+            sentiment2='112'
+            sentiment3='321'
+          />
+        </div>
+        <div className='bottomRow'>
+          {' '}
+          <Website_Visitors visitors='821' />
+        </div>
       </div>
     </div>
   );

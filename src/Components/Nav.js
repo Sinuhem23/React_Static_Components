@@ -1,4 +1,4 @@
-import '../CSS/side-nav.css';
+import '../CSS/side_nav.css';
 
 const Nav = () => {
   return (

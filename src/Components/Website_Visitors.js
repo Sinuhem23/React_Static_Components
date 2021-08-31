@@ -3,7 +3,7 @@ import React from 'react';
 
 const Website_Visitors = (props) => {
   return (
-    <div>
+    <div className='visitors'>
       <h3>Website Visitors</h3>
       {props.visitors}
     </div>
