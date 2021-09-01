@@ -1,5 +1,4 @@
 import '../CSS/sentiment.css';
-import React from 'react';
 
 const Sentiment_Analysis = (props) => {
   return (
