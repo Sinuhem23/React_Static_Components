@@ -1,5 +1,14 @@
 .visitors {
   color: white;
-  border: 1px solid white;
+  /* border: 2px solid white; */
+  box-shadow: 0 0 15px 5px rgb(54, 54, 54);
+  background-color: #111;
+
   padding: 2rem;
+}
+.visitor_text {
+  display: flex;
+}
+.visitor_count {
+  display: flex;
 }

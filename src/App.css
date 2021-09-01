@@ -2,6 +2,9 @@
   text-align: center;
   display: grid;
   background-color: #111;
+  background-image: url('./Images/component_bg.jpeg');
+  background-repeat: repeat;
+  background-size: contain;
 }
 
 .App-header {
@@ -33,6 +36,4 @@
   display: grid;
 
   margin: 3rem 2rem 3rem 18rem;
-
-  border: 1px solid white;
 }
